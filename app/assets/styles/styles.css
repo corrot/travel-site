@@ -1,18 +1,5 @@
-$mainBlue: #2f5566;
-
-h1{
-    color: $mainBlue;
-    background: black;
-    letter-spacing: 2px;
-    text-align: left;
-    margin: auto;
-    position: relative;
-    columns: 300px 2;
-}
-
-.box{
-    a{
-        display: block;
-        padding: 10px;
-    }
-}
+@import "normalize.css";
+@import "base/_global";
+@import "base/_variables";
+@import "modules/_large-hero";
+@import "modules/_btn";
